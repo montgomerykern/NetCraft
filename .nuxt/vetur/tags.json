@@ -41,6 +41,21 @@
   "BlogDetailsBreadcrumb": {
     "description": "Auto imported from components/Blog-Details/Breadcrumb.vue"
   },
+  "CommonCta": {
+    "description": "Auto imported from components/Common/CommonCta.vue"
+  },
+  "CommonHeader": {
+    "description": "Auto imported from components/Common/Header.vue"
+  },
+  "CommonHeaderTwo": {
+    "description": "Auto imported from components/Common/HeaderTwo.vue"
+  },
+  "CommonPageFooter": {
+    "description": "Auto imported from components/Common/PageFooter.vue"
+  },
+  "CommonTrust": {
+    "description": "Auto imported from components/Common/Trust.vue"
+  },
   "ContactBreadcrumb": {
     "description": "Auto imported from components/Contact/Breadcrumb.vue"
   },
@@ -49,6 +64,15 @@
   },
   "Contact": {
     "description": "Auto imported from components/Contact/contact.vue"
+  },
+  "FaqBreadcrumb": {
+    "description": "Auto imported from components/Faq/Breadcrumb.vue"
+  },
+  "FaqContent": {
+    "description": "Auto imported from components/Faq/FaqContent.vue"
+  },
+  "Faq": {
+    "description": "Auto imported from components/Faq/faq.vue"
   },
   "HomeAbout": {
     "description": "Auto imported from components/Home/About.vue"
@@ -82,30 +106,6 @@
   },
   "HomeVideo": {
     "description": "Auto imported from components/Home/Video.vue"
-  },
-  "CommonCta": {
-    "description": "Auto imported from components/Common/CommonCta.vue"
-  },
-  "CommonHeader": {
-    "description": "Auto imported from components/Common/Header.vue"
-  },
-  "CommonHeaderTwo": {
-    "description": "Auto imported from components/Common/HeaderTwo.vue"
-  },
-  "CommonPageFooter": {
-    "description": "Auto imported from components/Common/PageFooter.vue"
-  },
-  "CommonTrust": {
-    "description": "Auto imported from components/Common/Trust.vue"
-  },
-  "FaqBreadcrumb": {
-    "description": "Auto imported from components/Faq/Breadcrumb.vue"
-  },
-  "FaqContent": {
-    "description": "Auto imported from components/Faq/FaqContent.vue"
-  },
-  "Faq": {
-    "description": "Auto imported from components/Faq/faq.vue"
   },
   "HomeTwoBenefits": {
     "description": "Auto imported from components/Home-Two/Benefits.vue"

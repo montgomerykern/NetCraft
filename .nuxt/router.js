@@ -4,18 +4,18 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _0fc31c79 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
-const _27cafc34 = () => interopDefault(import('../pages/blog.vue' /* webpackChunkName: "pages/blog" */))
-const _5b49b0cc = () => interopDefault(import('../pages/blogdetails.vue' /* webpackChunkName: "pages/blogdetails" */))
-const _2deab68c = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
-const _4c95bc82 = () => interopDefault(import('../pages/faq.vue' /* webpackChunkName: "pages/faq" */))
-const _370710e3 = () => interopDefault(import('../pages/index-2.vue' /* webpackChunkName: "pages/index-2" */))
-const _ef4c219c = () => interopDefault(import('../pages/pricing.vue' /* webpackChunkName: "pages/pricing" */))
-const _19148df6 = () => interopDefault(import('../pages/project.vue' /* webpackChunkName: "pages/project" */))
-const _5c7708cd = () => interopDefault(import('../pages/projectdetails.vue' /* webpackChunkName: "pages/projectdetails" */))
-const _8eebf2be = () => interopDefault(import('../pages/service.vue' /* webpackChunkName: "pages/service" */))
-const _fecd189e = () => interopDefault(import('../pages/servicedetails.vue' /* webpackChunkName: "pages/servicedetails" */))
-const _2f7af73e = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _64c2ffb4 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _7e9d7499 = () => interopDefault(import('../pages/blog.vue' /* webpackChunkName: "pages/blog" */))
+const _5d36428e = () => interopDefault(import('../pages/blogdetails.vue' /* webpackChunkName: "pages/blogdetails" */))
+const _3b083a0e = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
+const _d93fb122 = () => interopDefault(import('../pages/faq.vue' /* webpackChunkName: "pages/faq" */))
+const _28cf8560 = () => interopDefault(import('../pages/index-2.vue' /* webpackChunkName: "pages/index-2" */))
+const _3ceb1b9f = () => interopDefault(import('../pages/pricing.vue' /* webpackChunkName: "pages/pricing" */))
+const _aff2351c = () => interopDefault(import('../pages/project.vue' /* webpackChunkName: "pages/project" */))
+const _fd471080 = () => interopDefault(import('../pages/projectdetails.vue' /* webpackChunkName: "pages/projectdetails" */))
+const _6d1b330e = () => interopDefault(import('../pages/service.vue' /* webpackChunkName: "pages/service" */))
+const _b5023ab8 = () => interopDefault(import('../pages/servicedetails.vue' /* webpackChunkName: "pages/servicedetails" */))
+const _25534a2a = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -30,51 +30,51 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _0fc31c79,
+    component: _64c2ffb4,
     name: "about"
   }, {
     path: "/blog",
-    component: _27cafc34,
+    component: _7e9d7499,
     name: "blog"
   }, {
     path: "/blogdetails",
-    component: _5b49b0cc,
+    component: _5d36428e,
     name: "blogdetails"
   }, {
     path: "/contact",
-    component: _2deab68c,
+    component: _3b083a0e,
     name: "contact"
   }, {
     path: "/faq",
-    component: _4c95bc82,
+    component: _d93fb122,
     name: "faq"
   }, {
     path: "/index-2",
-    component: _370710e3,
+    component: _28cf8560,
     name: "index-2"
   }, {
     path: "/pricing",
-    component: _ef4c219c,
+    component: _3ceb1b9f,
     name: "pricing"
   }, {
     path: "/project",
-    component: _19148df6,
+    component: _aff2351c,
     name: "project"
   }, {
     path: "/projectdetails",
-    component: _5c7708cd,
+    component: _fd471080,
     name: "projectdetails"
   }, {
     path: "/service",
-    component: _8eebf2be,
+    component: _6d1b330e,
     name: "service"
   }, {
     path: "/servicedetails",
-    component: _fecd189e,
+    component: _b5023ab8,
     name: "servicedetails"
   }, {
     path: "/",
-    component: _2f7af73e,
+    component: _25534a2a,
     name: "index"
   }],
 

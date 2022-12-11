@@ -12,9 +12,9 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_17cf028a from 'nuxt_plugin_plugin_17cf028a' // Source: ./components/plugin.js (mode: 'all')
-import nuxt_plugin_bootstrapvue_003b6acf from 'nuxt_plugin_bootstrapvue_003b6acf' // Source: ./bootstrap-vue.js (mode: 'all')
-import nuxt_plugin_fontawesome_175307e2 from 'nuxt_plugin_fontawesome_175307e2' // Source: ./fontawesome.js (mode: 'all')
+import nuxt_plugin_plugin_cdd6fe86 from 'nuxt_plugin_plugin_cdd6fe86' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_bootstrapvue_4d85fa82 from 'nuxt_plugin_bootstrapvue_4d85fa82' // Source: ./bootstrap-vue.js (mode: 'all')
+import nuxt_plugin_fontawesome_3d582f56 from 'nuxt_plugin_fontawesome_3d582f56' // Source: ./fontawesome.js (mode: 'all')
 import nuxt_plugin_vueawesomeswiper_0f4ed586 from 'nuxt_plugin_vueawesomeswiper_0f4ed586' // Source: ../plugins/vue-awesome-swiper (mode: 'client')
 import nuxt_plugin_vvideoembed_3222b47a from 'nuxt_plugin_vvideoembed_3222b47a' // Source: ../plugins/v-video-embed (mode: 'client')
 
@@ -180,16 +180,16 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_17cf028a === 'function') {
-    await nuxt_plugin_plugin_17cf028a(app.context, inject)
+  if (typeof nuxt_plugin_plugin_cdd6fe86 === 'function') {
+    await nuxt_plugin_plugin_cdd6fe86(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_bootstrapvue_003b6acf === 'function') {
-    await nuxt_plugin_bootstrapvue_003b6acf(app.context, inject)
+  if (typeof nuxt_plugin_bootstrapvue_4d85fa82 === 'function') {
+    await nuxt_plugin_bootstrapvue_4d85fa82(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_fontawesome_175307e2 === 'function') {
-    await nuxt_plugin_fontawesome_175307e2(app.context, inject)
+  if (typeof nuxt_plugin_fontawesome_3d582f56 === 'function') {
+    await nuxt_plugin_fontawesome_3d582f56(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_vueawesomeswiper_0f4ed586 === 'function') {

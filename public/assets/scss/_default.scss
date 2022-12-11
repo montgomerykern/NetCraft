@@ -6,11 +6,11 @@ body {
   color: $body-color;
   font-size: $body-fz;
   font-family: $body-fonts;
-  font-weight: 400;
+  font-weight: 300;
 }
 @font-face {
   font-family: 'Reey';
-  src: url('../fonts/Reey-Regular.woff2') format('woff2'),
+  src: url('../fonts/Reey-Regular.woff') format('woff'),
       url('../fonts/Reey-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;

@@ -2,85 +2,85 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "/Users/montgomerykern/Documents/GitHub/ntcrft/pages/about.vue",
+    "component": "/workspaces/ntcrft/pages/about.vue",
     "chunkName": "pages/about",
-    "_name": "_0fc31c79"
+    "_name": "_64c2ffb4"
   },
   {
     "name": "blog",
     "path": "/blog",
-    "component": "/Users/montgomerykern/Documents/GitHub/ntcrft/pages/blog.vue",
+    "component": "/workspaces/ntcrft/pages/blog.vue",
     "chunkName": "pages/blog",
-    "_name": "_27cafc34"
+    "_name": "_7e9d7499"
   },
   {
     "name": "blogdetails",
     "path": "/blogdetails",
-    "component": "/Users/montgomerykern/Documents/GitHub/ntcrft/pages/blogdetails.vue",
+    "component": "/workspaces/ntcrft/pages/blogdetails.vue",
     "chunkName": "pages/blogdetails",
-    "_name": "_5b49b0cc"
+    "_name": "_5d36428e"
   },
   {
     "name": "contact",
     "path": "/contact",
-    "component": "/Users/montgomerykern/Documents/GitHub/ntcrft/pages/contact.vue",
+    "component": "/workspaces/ntcrft/pages/contact.vue",
     "chunkName": "pages/contact",
-    "_name": "_2deab68c"
+    "_name": "_3b083a0e"
   },
   {
     "name": "faq",
     "path": "/faq",
-    "component": "/Users/montgomerykern/Documents/GitHub/ntcrft/pages/faq.vue",
+    "component": "/workspaces/ntcrft/pages/faq.vue",
     "chunkName": "pages/faq",
-    "_name": "_4c95bc82"
+    "_name": "_d93fb122"
   },
   {
     "name": "index-2",
     "path": "/index-2",
-    "component": "/Users/montgomerykern/Documents/GitHub/ntcrft/pages/index-2.vue",
+    "component": "/workspaces/ntcrft/pages/index-2.vue",
     "chunkName": "pages/index-2",
-    "_name": "_370710e3"
+    "_name": "_28cf8560"
   },
   {
     "name": "pricing",
     "path": "/pricing",
-    "component": "/Users/montgomerykern/Documents/GitHub/ntcrft/pages/pricing.vue",
+    "component": "/workspaces/ntcrft/pages/pricing.vue",
     "chunkName": "pages/pricing",
-    "_name": "_ef4c219c"
+    "_name": "_3ceb1b9f"
   },
   {
     "name": "project",
     "path": "/project",
-    "component": "/Users/montgomerykern/Documents/GitHub/ntcrft/pages/project.vue",
+    "component": "/workspaces/ntcrft/pages/project.vue",
     "chunkName": "pages/project",
-    "_name": "_19148df6"
+    "_name": "_aff2351c"
   },
   {
     "name": "projectdetails",
     "path": "/projectdetails",
-    "component": "/Users/montgomerykern/Documents/GitHub/ntcrft/pages/projectdetails.vue",
+    "component": "/workspaces/ntcrft/pages/projectdetails.vue",
     "chunkName": "pages/projectdetails",
-    "_name": "_5c7708cd"
+    "_name": "_fd471080"
   },
   {
     "name": "service",
     "path": "/service",
-    "component": "/Users/montgomerykern/Documents/GitHub/ntcrft/pages/service.vue",
+    "component": "/workspaces/ntcrft/pages/service.vue",
     "chunkName": "pages/service",
-    "_name": "_8eebf2be"
+    "_name": "_6d1b330e"
   },
   {
     "name": "servicedetails",
     "path": "/servicedetails",
-    "component": "/Users/montgomerykern/Documents/GitHub/ntcrft/pages/servicedetails.vue",
+    "component": "/workspaces/ntcrft/pages/servicedetails.vue",
     "chunkName": "pages/servicedetails",
-    "_name": "_fecd189e"
+    "_name": "_b5023ab8"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/montgomerykern/Documents/GitHub/ntcrft/pages/index.vue",
+    "component": "/workspaces/ntcrft/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_2f7af73e"
+    "_name": "_25534a2a"
   }
 ]
