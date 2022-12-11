@@ -45,10 +45,10 @@ export default {
     name: 'Service',
     data() {
         return {
-            subtitle: 'We are Crafters',
-            title: 'The Services <br>We Offer',
-            description: 'There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour.',
-            authorImg: 'service-author.png',
+            subtitle: 'Excellence in Service',
+            title: 'The Services',
+            description: 'A completely bespoke approach to development for hotelier, restaurateur and most demanding owners.',
+            authorImg: 'services-author.png',
             authorName: 'Montgomery James Kern',
             serviceBox: [{
                     serviceBoxTitle: 'Website <br>Crafting',
@@ -61,12 +61,12 @@ export default {
                     f_icon: ['far', 'paper-plane'],
                 },
                 {
-                    serviceBoxTitle: 'SEO & Content <br>Crafting',
+                    serviceBoxTitle: 'Content <br>Crafting',
                     url: '/servicedetails',
                     f_icon: ['far', 'chart-bar']
                 },
                 {
-                    serviceBoxTitle: 'Digital <br>marketing',
+                    serviceBoxTitle: 'Digital <br>Marketing',
                     url: '/servicedetails',
                     f_icon: ['far', 'handshake']
                 }

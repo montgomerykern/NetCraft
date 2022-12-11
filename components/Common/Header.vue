@@ -16,31 +16,35 @@
                                     <ul>
                                         <li class="menu-item-has-children">
                                             <NuxtLink to="/">Home</NuxtLink>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <nuxt-link to="/">Home Style 1</nuxt-link>
-                                                </li>
-                                                <li>
-                                                    <nuxt-link to="/index-2">Home Style 2</nuxt-link>
-                                                </li>
-                                            </ul>
                                         </li>
                                         <li>
-                                            <nuxt-link to="/about">About</nuxt-link>
+                                            <nuxt-link to="/about">The Culture</nuxt-link>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <NuxtLink to="/service">Services</NuxtLink>
+                                            <NuxtLink to="/service">The Services</NuxtLink>
                                             <ul class="sub-menu">
-                                                <li>
-                                                    <NuxtLink to="/service">Services</NuxtLink>
+                                                 <li>
+                                                    <NuxtLink to="/servicedetails">Hotel Sites</NuxtLink>
                                                 </li>
                                                 <li>
-                                                    <NuxtLink to="/servicedetails">Services Details</NuxtLink>
+                                                    <NuxtLink to="/servicedetails">Food & Beverage Apps</NuxtLink>
+                                                </li>
+                                                <li>
+                                                    <NuxtLink to="/servicedetails">Golf Destination Sites</NuxtLink>
+                                                </li>
+                                                <li>
+                                                    <NuxtLink to="/servicedetails">Weddings & Floral Sites</NuxtLink>
+                                                </li>
+                                                <li>
+                                                    <NuxtLink to="/servicedetails">Meetings & Conventions</NuxtLink>
+                                                </li>
+                                                <li>
+                                                    <NuxtLink to="/servicedetails">Spa & Boutique</NuxtLink>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <NuxtLink to="/project">Project</NuxtLink>
+                                            <NuxtLink to="/project">The Projects</NuxtLink>
                                             <ul class="sub-menu">
                                                 <li>
                                                     <NuxtLink to="/project">Project</NuxtLink>
@@ -51,7 +55,7 @@
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <NuxtLink to="/blog">Blog</NuxtLink>
+                                            <NuxtLink to="/blog">The Blog</NuxtLink>
                                             <ul class="sub-menu">
                                                 <li>
                                                     <NuxtLink to="/blog">Blog</NuxtLink>
@@ -61,7 +65,7 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Pages</a>
+                                        <li><a href="#">Get in Touch</a>
                                             <ul class="sub-menu">
                                                 <li>
                                                     <NuxtLink to="/pricing">Pricing</NuxtLink>
