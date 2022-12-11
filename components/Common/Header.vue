@@ -24,10 +24,10 @@
                                             <NuxtLink to="/service">Our Services</NuxtLink>
                                             <ul class="sub-menu">
                                                  <li>
-                                                    <NuxtLink to="/servicedetails">Hotel & Resort</NuxtLink>
+                                                    <NuxtLink to="/servicedetails"><font-awesome-icon :icon="['fab', 'fa-hotel']" />Hotel & Resort</NuxtLink>
                                                 </li>
                                                 <li>
-                                                    <NuxtLink to="/servicedetails">Food & Beverage</NuxtLink>
+                                                    <NuxtLink to="/servicedetails"><font-awesome-icon icon="fab', fa-utensils" />Food & Beverage</NuxtLink>
                                                 </li>
                                                 <li>
                                                     <NuxtLink to="/servicedetails">Golf Course</NuxtLink>
