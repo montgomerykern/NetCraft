@@ -18,10 +18,10 @@
                                             <NuxtLink to="/">Home</NuxtLink>
                                         </li>
                                         <li>
-                                            <nuxt-link to="/about">The Culture</nuxt-link>
+                                            <nuxt-link to="/about">About Us</nuxt-link>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <NuxtLink to="/service">The Services</NuxtLink>
+                                            <NuxtLink to="/service">Our Services</NuxtLink>
                                             <ul class="sub-menu">
                                                  <li>
                                                     <NuxtLink to="/servicedetails">Hotel Sites</NuxtLink>
@@ -44,7 +44,7 @@
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <NuxtLink to="/project">The Projects</NuxtLink>
+                                            <NuxtLink to="/project">Our Projects</NuxtLink>
                                             <ul class="sub-menu">
                                                 <li>
                                                     <NuxtLink to="/project">Project</NuxtLink>
@@ -55,7 +55,7 @@
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <NuxtLink to="/blog">The Blog</NuxtLink>
+                                            <NuxtLink to="/blog">Blog</NuxtLink>
                                             <ul class="sub-menu">
                                                 <li>
                                                     <NuxtLink to="/blog">Blog</NuxtLink>
