@@ -24,16 +24,13 @@
                                             <NuxtLink to="/service">Our Services</NuxtLink>
                                             <ul class="sub-menu">
                                                  <li>
-                                                    <NuxtLink to="/servicedetails">Hotel Sites</NuxtLink>
+                                                    <NuxtLink to="/servicedetails">Hotel & Inn</NuxtLink>
                                                 </li>
                                                 <li>
-                                                    <NuxtLink to="/servicedetails">Food & Beverage Apps</NuxtLink>
+                                                    <NuxtLink to="/servicedetails">Food & Beverage</NuxtLink>
                                                 </li>
                                                 <li>
-                                                    <NuxtLink to="/servicedetails">Golf Destination Sites</NuxtLink>
-                                                </li>
-                                                <li>
-                                                    <NuxtLink to="/servicedetails">Weddings & Floral Sites</NuxtLink>
+                                                    <NuxtLink to="/servicedetails">Golf Destination</NuxtLink>
                                                 </li>
                                                 <li>
                                                     <NuxtLink to="/servicedetails">Meetings & Conventions</NuxtLink>
