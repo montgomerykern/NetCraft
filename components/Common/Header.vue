@@ -24,16 +24,16 @@
                                             <NuxtLink to="/service">Our Services</NuxtLink>
                                             <ul class="sub-menu">
                                                  <li>
-                                                    <NuxtLink to="/servicedetails">Hotel & Inn</NuxtLink>
+                                                    <NuxtLink to="/servicedetails">Hotel & Resort</NuxtLink>
                                                 </li>
                                                 <li>
                                                     <NuxtLink to="/servicedetails">Food & Beverage</NuxtLink>
                                                 </li>
                                                 <li>
-                                                    <NuxtLink to="/servicedetails">Golf Destination</NuxtLink>
+                                                    <NuxtLink to="/servicedetails">Golf Course</NuxtLink>
                                                 </li>
                                                 <li>
-                                                    <NuxtLink to="/servicedetails">Meetings & Conventions</NuxtLink>
+                                                    <NuxtLink to="/servicedetails">Meetings & Events</NuxtLink>
                                                 </li>
                                                 <li>
                                                     <NuxtLink to="/servicedetails">Spa & Boutique</NuxtLink>
