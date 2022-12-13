@@ -9,7 +9,7 @@
                 </div>
                 <div class="cta-number-text fix">
                     <span class="uppercase">{{ subtitle }}</span>
-                    <h3><a href="tel:6668880000">{{ numberText }}</a></h3>
+                    <h3><a href="tel:910-209-1884">{{ numberText }}</a></h3>
                 </div>
             </div>
             <div class="cta-description">
@@ -29,10 +29,10 @@ export default {
     name: 'Cta',
     data(){
         return {
-            subtitle: 'Get a Free Consultation',
-            numberText: '666 888 0000',
-            description: 'Lorem ipsum dolor sit amet nsectetur cing elituspe ndisse suscipit.',
-            ctaLinkText: 'Discover more',
+            subtitle: 'Get in Contact',
+            numberText: '910 209 1884',
+            description: 'Contact Us and find out what we can do for your business.',
+            ctaLinkText: 'Discover More +',
             ctaLinkUrl: '/service',
         }
     }

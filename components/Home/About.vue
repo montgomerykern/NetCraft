@@ -57,8 +57,8 @@ export default {
             image1: 'about-img-1.jpg',
             image2: 'about-img-2.jpg',
 
-            setionSubTitle: 'get to know us',
-            setionTitle: 'Welcome to digital <br>agency',
+            setionSubTitle: 'About Us',
+            setionTitle: 'Welcome to NetCraft',
             setionDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the when an unknown was popularised.',
 
             aboutService: [{

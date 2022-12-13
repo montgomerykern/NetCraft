@@ -47,7 +47,7 @@ export default {
         return {
             subtitle: 'Excellence in Service',
             title: 'Our Services',
-            description: 'A completely bespoke approach to development for hotelier, restaurateur and most demanding owners.',
+            description: 'A completely bespoke approach to development for Boutique hoteliers, restaurateurs and most demanding service industry owners.',
             authorImg: 'services-author.png',
             authorName: 'Montgomery James Kern',
             serviceBox: [{
