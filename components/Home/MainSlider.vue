@@ -45,7 +45,7 @@ export default {
                     id: '1',
                     image: 'slider-1.jpg',
                     subtitle: 'Welcome to NetCraft',
-                    title: 'Web Design <br>Agency',
+                    title: 'The Technology <br>Company',
                     button: 'Discover more',
                     url: '/about',
                     shape1: 'slider-shape-1.png',

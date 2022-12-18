@@ -1,7 +1,7 @@
 <template>
 <!-- contact area  -->
 <section class="contact-area pt-120 pb-145 fix">
-    <div class="container">
+    <div class="container">   <form data-static-form-name="sales">
         <div class="row">
             <div class="col-xxl-5 col-xl-6 col-lg-6">
                 <div class="section-title-wrapper mb-15">
@@ -40,7 +40,8 @@
                                 <textarea placeholder="Write Massage" name="massage"></textarea>
                             </div>
                             <div class="col-xxl-12 col-xl-12 mb-20">
-                                <button type="button" class="theme-btn border-btn">Send a message</button>
+                                <button type="Submit" class="theme-btn border-btn">Send a message</button>
+                                <h1>Sales enquiry</h1>
                             </div>
                         </div>
                     </form>
@@ -49,6 +50,7 @@
             </div>
         </div>
     </div>
+</form>
 </section>
 <!-- contact area end -->
 </template>

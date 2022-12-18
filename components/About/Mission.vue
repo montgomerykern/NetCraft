@@ -35,9 +35,9 @@ export default {
     data() {
         return {
             sectionSubTitle: 'get to know us',
-            sectionTitle: 'Our Mission is to become the best agency',
-            sectionContent: 'Lorem Ipsum is simply dummy text of the printing available in the market for free uses.',
-            sectionContent2: 'Lorem ipsum dolor sit amet nsectetur cing elit. Suspe ndisse suscipit sagittis leo sit met entum is not estibulum dignissim posuere cubilia durae. Leo sit met entum cubilia crae. but also the leap into electronic typesetting.',
+            sectionTitle: 'Driving Revenue to Small & Large Scale Business since 2000',
+            sectionContent: 'We are a focused development partner who helps business streamline online operations.',
+            sectionContent2: 'We’re proud to partner with serious hoteliers, hotel management companies, and asset management firms seeking to outperform their compset, improve bottom line profitability, and decrease OTA-dependence. Using our own best-in-class technology, we design and deliver all-inclusive digital solutions that ensure maximum traffic and conversions across all channels.',
             buttonText: 'Discover more',
             buttonUrl: '/service',
             image: 'about-img-6.jpg',
