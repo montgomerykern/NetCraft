@@ -25,11 +25,13 @@
                 <div class="contact-form">
                         <div class="row">
                          
-                                <form @submit.prevent="handleSubmit">
-    <input v-model="form.name" type="text" name="name" placeholder="Enter name" required>
-    <input v-model="form.email" type="email" name="email" placeholder="Enter email" required>
-    <textarea v-model="form.message" placeholder="Enter message" name="message" required></textarea>
-    <button type="submit">Send</button>
+                            <form action="https://formeezy.com/api/v1/forms/639e7707aa4cca0008ca1096/submissions" method="POST" enctype="multipart/form-data">
+  <input type="email" name="email" placeholder="Enter email" required></input>
+  <textarea placeholder="Enter message" name="message" required></textarea>
+  <input type="file" name="my-file"></input>
+  <input name="bot-field" type="text" style="display: none;"></input>
+  <button type="submit">Send</button>
+</form>
   </form>
                         </div>
                 </div>
@@ -39,42 +41,7 @@
 <!-- contact area end -->
 </template>
 
-<script>
-  import axios from 'axios';
 
-  export default {
-    name: 'ContactForm',
-    data() {
-      return {
-        form: {
-          name: "",
-          email: "",
-          message: "",
-        },
-      };
-    },
-    methods: {
-      handleSubmit: async function() {
-        const formData = new FormData();
-
-        for (let [key, value] of Object.entries(this.form)) {
-          formData.append(key, value);
-        }
-
-        await axios
-          .post("{https://formeezy.com/api/v1/forms/639e7707aa4cca0008ca1096/submissions}", formData)
-          .then(({ data }) => {
-            const { redirect } = data;
-            // Redirect used for reCAPTCHA and/or thank you page
-            window.location.href = redirect;
-          })
-          .catch((e) => {
-            window.location.href = e.response.data.redirect;
-          });
-      }
-    }
-  };
-</script>
 
 <style lang="scss" scoped>
 
