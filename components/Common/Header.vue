@@ -24,7 +24,7 @@
                                             <NuxtLink to="/service">Our Services</NuxtLink>
                                             <ul class="sub-menu">
                                                  <li>
-                                                    <NuxtLink to="/servicedetails"><font-awesome-icon :icon="['fab', 'twitter']" /></a> Hotel & Resort</NuxtLink>
+                                                    <NuxtLink to="/servicedetails"><font-awesome-icon :icon="['fab', 'twitter']" /> Hotel & Resort</NuxtLink>
                                                 </li>
                                                 <li>
                                                     <NuxtLink to="/servicedetails">Food & Beverage</NuxtLink>
@@ -111,7 +111,7 @@
                                         <font-awesome-icon :icon="['fas', 'search']" /></a>
                                 </div>
                                 <div class="header-btn">
-                                    <NuxtLink to="/about" class="theme-btn theme-btn-small">Free Estimate</NuxtLink>
+                                    <NuxtLink to="/login" class="theme-btn theme-btn-small">Login</NuxtLink>
                                 </div>
                             </div>
                         </div>

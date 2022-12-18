@@ -10,6 +10,7 @@ const _5d36428e = () => interopDefault(import('../pages/blogdetails.vue' /* webp
 const _3b083a0e = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _d93fb122 = () => interopDefault(import('../pages/faq.vue' /* webpackChunkName: "pages/faq" */))
 const _28cf8560 = () => interopDefault(import('../pages/index-2.vue' /* webpackChunkName: "pages/index-2" */))
+const _920403fc = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
 const _3ceb1b9f = () => interopDefault(import('../pages/pricing.vue' /* webpackChunkName: "pages/pricing" */))
 const _aff2351c = () => interopDefault(import('../pages/project.vue' /* webpackChunkName: "pages/project" */))
 const _fd471080 = () => interopDefault(import('../pages/projectdetails.vue' /* webpackChunkName: "pages/projectdetails" */))
@@ -52,6 +53,10 @@ export const routerOptions = {
     path: "/index-2",
     component: _28cf8560,
     name: "index-2"
+  }, {
+    path: "/login",
+    component: _920403fc,
+    name: "login"
   }, {
     path: "/pricing",
     component: _3ceb1b9f,

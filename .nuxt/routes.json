@@ -42,6 +42,13 @@
     "_name": "_28cf8560"
   },
   {
+    "name": "login",
+    "path": "/login",
+    "component": "/workspaces/ntcrft/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_920403fc"
+  },
+  {
     "name": "pricing",
     "path": "/pricing",
     "component": "/workspaces/ntcrft/pages/pricing.vue",
