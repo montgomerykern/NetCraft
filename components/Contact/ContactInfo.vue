@@ -24,24 +24,27 @@
             <div class="col-xxl-7 col-xl-6 col-lg-6">
                 <div class="contact-form">
                         <div class="row">
+                            <form @submit.prevent="handleSubmit"><form action="https://formeezy.com/api/v1/forms/639e7707aa4cca0008ca1096/submissions" method="POST" enctype="multipart/form-data">
+
                             <div class="col-xxl-6 col-xl-6 col-sm-6 mb-20">
-                                <input name="name" type="text" placeholder="Your Name">
+                                <input v-model="form.name" type="text" name="name" placeholder="Enter name" required>
                             </div>
                             <div class="col-xxl-6 col-xl-6 col-sm-6 mb-20">
-                                <input name="email" type="email" placeholder="Email Adress">
+                                <input v-model="form.email" type="email" name="email" placeholder="Enter email" required>
                             </div>
                             <div class="col-xxl-6 col-xl-6 col-sm-6 mb-20">
-                                <input name="phone" type="text" placeholder="Phone">
+                                <input v-model="form.phone" type="phone" name="phone" placeholder="Enter phone" required>
                             </div>
                             <div class="col-xxl-6 col-xl-6 col-sm-6 mb-20">
-                                <input name="subject" type="text" placeholder="Subject">
+                                <input v-model="form.subject" type="subject" name="subject" placeholder="Enter subject" required>
                             </div>
                             <div class="col-xxl-12 col-xl-12 col-lg-12 mb-20">
-                                <textarea placeholder="Write Massage" name="massage"></textarea>
+                                <textarea v-model="form.message" placeholder="Enter message" name="message" required></textarea>
                             </div>
                             <div class="col-xxl-12 col-xl-12 mb-20">
-                                <button type="Submit" class="theme-btn border-btn">Send a message</button>
+                                <button type="Submit" class="theme-btn border-btn">Send +</button>
                             </div>
+                            </form>
                         </div>
                 </div>
             </div>
@@ -52,32 +55,43 @@
 <!-- contact area end -->
 </template>
 
-
 <script>
-export default {
-    name: 'Contact',
+  import axios from 'axios';
+
+  export default {
+    name: 'ContactForm',
     data() {
-        return {
-            sectionSubTitle: 'contact with us',
-            sectionTitle: 'Speak with our consultant',
-            contactInfo: [{
-                infoTitle: 'Call Anytime',
-                infoContent: '92 666 888 0000',
-                f_icon: ['fas', 'phone-alt'],
-            },
-            {
-                infoTitle: 'Send Email',
-                infoContent: 'needhelp@company.com',
-                f_icon: ['far', 'envelope'],
-            },
-            {
-                infoTitle: 'visit office',
-                infoContent: '86 Road Broklyn Street, New York',
-                f_icon: ['fas', 'map-marker-alt'],
-            }]
+      return {
+        form: {
+          name: "",
+          email: "",
+          phone: "",
+          subject: "",
+          message: "",
+        },
+      };
+    },
+    methods: {
+      handleSubmit: async function() {
+        const formData = new FormData();
+
+        for (let [key, value] of Object.entries(this.form)) {
+          formData.append(key, value);
         }
+
+        await axios
+          .post("{Formeezy-Endpoint}", formData)
+          .then(({ data }) => {
+            const { redirect } = data;
+            // Redirect used for reCAPTCHA and/or thank you page
+            window.location.href = redirect;
+          })
+          .catch((e) => {
+            window.location.href = e.response.data.redirect;
+          });
+      }
     }
-}
+  };
 </script>
 
 <style lang="scss" scoped>
