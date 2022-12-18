@@ -1,7 +1,8 @@
 <template>
 <!-- contact area  -->
 <section class="contact-area pt-120 pb-145 fix">
-    <div class="container">   <form data-static-form-name="sales">
+    <div class="container">
+    </div>
         <div class="row">
             <div class="col-xxl-5 col-xl-6 col-lg-6">
                 <div class="section-title-wrapper mb-15">
@@ -22,7 +23,6 @@
             </div>
             <div class="col-xxl-7 col-xl-6 col-lg-6">
                 <div class="contact-form">
-                    <form data-static-form-name="sales">
                         <div class="row">
                             <div class="col-xxl-6 col-xl-6 col-sm-6 mb-20">
                                 <input name="name" type="text" placeholder="Your Name">
@@ -43,7 +43,6 @@
                                 <button type="Submit" class="theme-btn border-btn">Send a message</button>
                             </div>
                         </div>
-                    </form>
                 </div>
             </div>
         </div>
@@ -52,16 +51,7 @@
 </section>
 <!-- contact area end -->
 </template>
-<script>
-import staticFormsPlugin from "@cloudflare/pages-plugin-static-forms";
 
-export const onRequest: PagesFunction = staticFormsPlugin({
-  respondWith: ({ formData, name }) => {
-    const email = formData.get('email')
-    return new Response(`Hello, ${email}! Thank you for submitting the ${name} form.`)
-  }
-});
-</script>
 
 <script>
 export default {

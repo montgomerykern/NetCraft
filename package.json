@@ -10,7 +10,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "@cloudflare/pages-plugin-static-forms": "^1.0.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-regular-svg-icons": "^5.15.4",
     "@innologica/vue-stackable-modal": "^0.1.10",
