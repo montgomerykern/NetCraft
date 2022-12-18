@@ -22,7 +22,7 @@
             </div>
             <div class="col-xxl-7 col-xl-6 col-lg-6">
                 <div class="contact-form">
-                    <form action="#" id="contact-form" method="POST">
+                    <form data-static-form-name="sales">
                         <div class="row">
                             <div class="col-xxl-6 col-xl-6 col-sm-6 mb-20">
                                 <input name="name" type="text" placeholder="Your Name">
@@ -41,7 +41,6 @@
                             </div>
                             <div class="col-xxl-12 col-xl-12 mb-20">
                                 <button type="Submit" class="theme-btn border-btn">Send a message</button>
-                                <h1>Sales enquiry</h1>
                             </div>
                         </div>
                     </form>
