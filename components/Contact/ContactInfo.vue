@@ -44,7 +44,6 @@
                             </div>
                         </div>
                     </form>
-                    <p class="ajax-response"></p>
                 </div>
             </div>
         </div>
@@ -53,6 +52,16 @@
 </section>
 <!-- contact area end -->
 </template>
+<script>
+import staticFormsPlugin from "@cloudflare/pages-plugin-static-forms";
+
+export const onRequest: PagesFunction = staticFormsPlugin({
+  respondWith: ({ formData, name }) => {
+    const email = formData.get('email')
+    return new Response(`Hello, ${email}! Thank you for submitting the ${name} form.`)
+  }
+});
+</script>
 
 <script>
 export default {
