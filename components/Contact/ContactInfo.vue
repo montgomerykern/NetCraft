@@ -24,16 +24,12 @@
             <div class="col-xxl-7 col-xl-6 col-lg-6">
                 <div class="contact-form">
                         <div class="row">
-                         
                             <form action="https://formeezy.com/api/v1/forms/639e7707aa4cca0008ca1096/submissions" method="POST" enctype="multipart/form-data">
   <input type="email" name="email" placeholder="Enter email" required></input>
   <textarea placeholder="Enter message" name="message" required></textarea>
-  <input type="file" name="my-file"></input>
   <input name="bot-field" type="text" style="display: none;"></input>
   <button type="submit">Send</button>
-</form>
-  </form>
-                        </div>
+</form>      </div>
                 </div>
             </div>
         </div>
