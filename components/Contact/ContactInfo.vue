@@ -2,7 +2,6 @@
 <!-- contact area  -->
 <section class="contact-area pt-120 pb-145 fix">
     <div class="container">
-    </div>
         <div class="row">
             <div class="col-xxl-5 col-xl-6 col-lg-6">
                 <div class="section-title-wrapper mb-15">
@@ -23,21 +22,63 @@
             </div>
             <div class="col-xxl-7 col-xl-6 col-lg-6">
                 <div class="contact-form">
+                    <form data-static-form-name="sales">
                         <div class="row">
-                            <form action="https://formeezy.com/api/v1/forms/639e7707aa4cca0008ca1096/submissions" method="POST" enctype="multipart/form-data">
-  <input type="email" name="email" placeholder="Enter email" required></input>
-  <textarea placeholder="Enter message" name="message" required></textarea>
-  <input name="bot-field" type="text" style="display: none;"></input>
-  <button type="submit">Send</button>
-</form>      </div>
+                            <div class="col-xxl-6 col-xl-6 col-sm-6 mb-20">
+                                <input name="name" type="text" placeholder="Your Name">
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-sm-6 mb-20">
+                                <input name="email" type="email" placeholder="Email Adress">
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-sm-6 mb-20">
+                                <input name="phone" type="text" placeholder="Phone">
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-sm-6 mb-20">
+                                <input name="subject" type="text" placeholder="Subject">
+                            </div>
+                            <div class="col-xxl-12 col-xl-12 col-lg-12 mb-20">
+                                <textarea placeholder="Write Massage" name="massage"></textarea>
+                            </div>
+                            <div class="col-xxl-12 col-xl-12 mb-20">
+                                <button type="Submit" class="theme-btn border-btn">Send a message</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
+    </div>
 </section>
 <!-- contact area end -->
 </template>
 
 
+<script>
+export default {
+    name: 'Contact',
+    data() {
+        return {
+            sectionSubTitle: 'contact with us',
+            sectionTitle: 'Speak with our consultant',
+            contactInfo: [{
+                infoTitle: 'Call Anytime',
+                infoContent: '92 666 888 0000',
+                f_icon: ['fas', 'phone-alt'],
+            },
+            {
+                infoTitle: 'Send Email',
+                infoContent: 'needhelp@company.com',
+                f_icon: ['far', 'envelope'],
+            },
+            {
+                infoTitle: 'visit office',
+                infoContent: '86 Road Broklyn Street, New York',
+                f_icon: ['fas', 'map-marker-alt'],
+            }]
+        }
+    }
+}
+</script>
 
 <style lang="scss" scoped>
 
