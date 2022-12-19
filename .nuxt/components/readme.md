@@ -53,6 +53,8 @@ You can directly use them in pages and other components without the need to impo
 - `<HomeTwoService>` | `<home-two-service>` (components/Home-Two/Service.vue)
 - `<HomeTwoTeam>` | `<home-two-team>` (components/Home-Two/Team.vue)
 - `<HomeTwoWhyWe>` | `<home-two-why-we>` (components/Home-Two/WhyWe.vue)
+- `<LoginLogininfo>` | `<login-logininfo>` (components/Login/Logininfo.vue)
+- `<Login>` | `<login>` (components/Login/login.vue)
 - `<PricingBreadcrumb>` | `<pricing-breadcrumb>` (components/Pricing/Breadcrumb.vue)
 - `<PricingPriceBox>` | `<pricing-price-box>` (components/Pricing/PriceBox.vue)
 - `<Pricing>` | `<pricing>` (components/Pricing/pricing.vue)

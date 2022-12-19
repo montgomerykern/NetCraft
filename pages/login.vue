@@ -1,14 +1,14 @@
 <script>
-import HomeTwo from "../components/Home-Two/HomeTwo";
+import contact from "../components/Contact/contact";
 export default {
   name: "app",
   components: {
-    HomeTwo
+    contact
   }
 };
 </script>
 <template>
-  <HomeTwo />
+  <contact />
 </template>
 <style scoped>
 

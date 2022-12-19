@@ -140,6 +140,12 @@
   "HomeTwoWhyWe": {
     "description": "Auto imported from components/Home-Two/WhyWe.vue"
   },
+  "LoginLogininfo": {
+    "description": "Auto imported from components/Login/Logininfo.vue"
+  },
+  "Login": {
+    "description": "Auto imported from components/Login/login.vue"
+  },
   "PricingBreadcrumb": {
     "description": "Auto imported from components/Pricing/Breadcrumb.vue"
   },

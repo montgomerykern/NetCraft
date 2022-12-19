@@ -45,6 +45,8 @@ export const HomeTwoProjectTwo = () => import('../../components/Home-Two/Project
 export const HomeTwoService = () => import('../../components/Home-Two/Service.vue' /* webpackChunkName: "components/home-two-service" */).then(c => wrapFunctional(c.default || c))
 export const HomeTwoTeam = () => import('../../components/Home-Two/Team.vue' /* webpackChunkName: "components/home-two-team" */).then(c => wrapFunctional(c.default || c))
 export const HomeTwoWhyWe = () => import('../../components/Home-Two/WhyWe.vue' /* webpackChunkName: "components/home-two-why-we" */).then(c => wrapFunctional(c.default || c))
+export const LoginLogininfo = () => import('../../components/Login/Logininfo.vue' /* webpackChunkName: "components/login-logininfo" */).then(c => wrapFunctional(c.default || c))
+export const Login = () => import('../../components/Login/login.vue' /* webpackChunkName: "components/login" */).then(c => wrapFunctional(c.default || c))
 export const PricingBreadcrumb = () => import('../../components/Pricing/Breadcrumb.vue' /* webpackChunkName: "components/pricing-breadcrumb" */).then(c => wrapFunctional(c.default || c))
 export const PricingPriceBox = () => import('../../components/Pricing/PriceBox.vue' /* webpackChunkName: "components/pricing-price-box" */).then(c => wrapFunctional(c.default || c))
 export const Pricing = () => import('../../components/Pricing/pricing.vue' /* webpackChunkName: "components/pricing" */).then(c => wrapFunctional(c.default || c))
