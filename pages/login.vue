@@ -1,14 +1,14 @@
 <script>
-import contact from "../components/Contact/contact";
+import login from "../components/Login/login";
 export default {
   name: "app",
   components: {
-    contact
+    login
   }
 };
 </script>
 <template>
-  <contact />
+  <login />
 </template>
 <style scoped>
 
